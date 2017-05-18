@@ -1,0 +1,25 @@
+{
+  "name": "m-portfolio",
+  "version": "1.0.0",
+  "description": "personal portfolio page built with mithril and material design.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack -d --watch",
+    "build": "webpack -p"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mithril": "^1.1.1",
+    "polythene": "^0.2.35"
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-latest": "^6.24.1",
+    "webpack": "^2.5.1"
+  }
+}
