@@ -2,7 +2,7 @@
 
 var m = require('mithril');
 
-const GHRepos = {
+var GHRepos = {
   list: [],
   loadList: function() {
     return m.request({
