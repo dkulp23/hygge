@@ -1,6 +1,7 @@
 'use strict';
 
-var path = require('path');
+const path = require('path');
+const Dotenv = require('dotenv-webpack');
 
 module.exports = {
   entry: './src/index.js',
@@ -14,5 +15,11 @@ module.exports = {
       exclude: '/node_modules/',
       loader: 'babel-loader'
     }]
-  }
+  },
+  plugins: [
+    new Dotenv({
+      path: './.env',
+      safe: true
+    })
+  ]
 };
