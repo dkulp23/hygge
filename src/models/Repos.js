@@ -2,7 +2,7 @@
 
 var m = require('mithril');
 
-module.exports = {
+const GHRepos = {
   list: [],
   loadList: function() {
     return m.request({
@@ -13,7 +13,9 @@ module.exports = {
       }
     })
     .then( repos => {
-      this.list = repos;
+     GHRepos.list = repos;
     });
   }
 };
+
+module.exports = GHRepos;
