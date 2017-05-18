@@ -45,7 +45,7 @@ jspm_packages/
 typings/
 
 # App Build
-bin/**
+bin
 
 # Optional npm cache directory
 .npm
