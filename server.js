@@ -10,5 +10,5 @@ const app = express();
 serveSpa(app, path.resolve(__dirname, './bin'));
 
 app.listen(PORT, () => {
-  console.log(`Serve running on PORT: ${PORT}`);
+  console.log(`Server running on PORT: ${PORT}`);
 });
